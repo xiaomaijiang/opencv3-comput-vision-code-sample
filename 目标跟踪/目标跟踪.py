@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 camera = cv2.VideoCapture(0) # 参数0表示第一个摄像头
 bs = cv2.createBackgroundSubtractorKNN(detectShadows=True)
 es = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
