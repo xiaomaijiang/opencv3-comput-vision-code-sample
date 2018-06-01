@@ -1,6 +1,6 @@
 import cv2
 
-filename = './images/2.jpg'
+filename = '/Users/wuwenhao/Documents/datas/images/train/1.jpeg'
 
 
 def detect(filename):
